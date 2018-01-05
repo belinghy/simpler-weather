@@ -1,7 +1,7 @@
 # SMS Bot
 
 <p align="center">
-    <img title="screenshot" src="screenshot.png" />
+    <img title="screenshot" src="screenshot.png" width="400" />
 </p>
 
 ## Description
