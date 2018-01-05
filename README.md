@@ -1,4 +1,4 @@
-# SMS Bot
+# Simpler Weather
 
 <p align="center">
     <img title="screenshot" src="screenshot.png" width="400" />
