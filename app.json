@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Simpler Weather",
+    "description": "A much simpler weather app.",
+    "slug": "simpler-weather",
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/images/icon.png",
+      "package": "me.beling.simplerweather"
+    }
+  }
+}
