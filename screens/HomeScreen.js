@@ -179,7 +179,7 @@ class WeatherScreen extends React.Component {
       const currentDateTime = new Date(parseInt(weather.currently.time) * 1000);
       const _year = currentDateTime.getFullYear();
       const _month = ("0" + (currentDateTime.getMonth() + 1)).substr(-2, 2);
-      const _date = ("0" + (currentDateTime.getDate() + 1)).substr(-2, 2);
+      const _date = ("0" + currentDateTime.getDate()).substr(-2, 2);
 
       return (
         <View style={styles.container}>
