@@ -169,7 +169,7 @@ class WeatherScreen extends React.Component {
         let { apparentTemperature, precipIntensity, uvIndex } = item;
 
         return {
-          time: `${hour % 12}${hourSuffix}`,
+          time: `${hour}${hourSuffix}`,
           temp: `${Math.round(apparentTemperature)}°C`,
           precip: `${Math.round(precipIntensity)}mm`,
           uvIndex: `${Math.round(uvIndex)}uv`
